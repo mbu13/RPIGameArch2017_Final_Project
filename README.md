@@ -10,6 +10,8 @@ The primary features of this project include:
 
 3) Lag simulation
 
+Both chat messaging and synchronization utilize a UDP implementation.
+
 ## Usage
 
 ### Launch
