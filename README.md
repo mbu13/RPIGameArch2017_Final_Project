@@ -26,7 +26,7 @@ The primary features of this project include:
 
 4) To send chat messages, select one of the terminal windows and directly type characters, hitting enter to send the message. You should see the message on the other terminal window.
 
-## Moving Entities
+### Moving Entities
 
 5) To move an entity, focus on a window and use the 'i', 'j', 'k', 'l' keys. You should see the entity in the other window move as well.
 
@@ -36,3 +36,4 @@ The primary features of this project include:
 
 For more details on this project, please see this presentation:
 
+https://github.com/mbu13/RPIGameArch2017_Final_Project/blob/master/GameArch_Final_Presentation.pdf
