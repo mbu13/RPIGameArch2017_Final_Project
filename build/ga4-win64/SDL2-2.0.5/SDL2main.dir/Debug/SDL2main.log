@@ -1,0 +1,16 @@
+﻿Build started 4/29/2017 5:43:50 PM.
+     1>Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\SDL2-2.0.5\SDL2main.vcxproj" on node 3 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/Matt/RPI/ga2017-homework4-master/src/3rdparty/SDL2-2.0.5/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\SDL2-2.0.5\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\SDL2-2.0.5\include" /I"C:\Users\Matt\RPI\ga2017-homework4-master\src\3rdparty\SDL2-2.0.5\include" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D USING_GENERATED_CONFIG_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"SDL2main.dir\Debug\\" /Fd"SDL2main.dir\Debug\SDL2main.pdb" /Gd /TC /errorReport:prompt "C:\Users\Matt\RPI\ga2017-homework4-master\src\3rdparty\SDL2-2.0.5\src\main\windows\SDL_windows_main.c"
+         SDL_windows_main.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\SDL2-2.0.5\Debug\SDL2main.lib" /NOLOGO /MACHINE:X64  /machine:x64 SDL2main.dir\Debug\SDL_windows_main.obj
+         SDL2main.vcxproj -> C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\SDL2-2.0.5\Debug\SDL2main.lib
+     1>Done Building Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\SDL2-2.0.5\SDL2main.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.61

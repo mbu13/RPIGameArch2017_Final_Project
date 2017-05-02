@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Matt\RPI\ga2017-homework4-master\src\3rdparty\SDL2-2.0.5\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\1fd84981b71008fbef606f0ed1f497f1\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\SDL2-2.0.5\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DA9C8918-81E8-3477-9190-F5DE2EE66FBD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

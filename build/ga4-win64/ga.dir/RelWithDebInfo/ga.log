@@ -1,0 +1,58 @@
+﻿Build started 4/29/2017 6:07:28 PM.
+     1>Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\ga.vcxproj" on node 4 (Build target(s)).
+     1>PreBuildEvent:
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Matt/RPI/ga2017-homework4-master/src/engine/../3rdparty/ttf-bitstream-vera-1.10/VeraMono.ttf C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/RelWithDebInfo
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       CustomBuild:
+         Building Custom Rule C:/Users/Matt/RPI/ga2017-homework4-master/src/engine/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\SDL2-2.0.5\include" /I"C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\..\3rdparty\SDL2-2.0.5\include" /I"C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\..\3rdparty\stb" /I"C:\Users\Matt\RPI\ga2017-homework4-master\src\3rdparty\glew-2.0.0\include" /I"C:\Users\Matt\RPI\ga2017-homework4-master\src\engine" /Zi /nologo /W1 /WX- /O2 /Ob1 /D NDEBUG /D "CMAKE_INTDIR=\"RelWithDebInfo\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ga.dir\RelWithDebInfo\\" /Fd"ga.dir\RelWithDebInfo\vc140.pdb" /Gd /TP /errorReport:prompt   ..\..\src\engine\entity\ga_lua_component.cpp ..\..\src\engine\graphics\ga_cube_component.cpp ..\..\src\engine\gui\ga_textbox.cpp ..\..\src\engine\network\network_module.cpp "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\entity\ga_component.cpp" "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\entity\ga_entity.cpp" "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\framework\ga_camera.cpp" "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\framework\ga_input.cpp" "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\framework\ga_output.cpp" "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\framework\ga_sim.cpp" "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\graphics\ga_material.cpp" "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\graphics\ga_program.cpp" "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\graphics\ga_texture.cpp" "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\gui\ga_button.cpp" "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\gui\ga_checkbox.cpp" "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\gui\ga_font.cpp" "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\gui\ga_label.cpp" "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\gui\ga_widget.cpp" "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\jobs\ga_condvar.cpp" "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\jobs\ga_fiber.cpp" "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\jobs\ga_intpool.cpp" "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\jobs\ga_job.cpp" "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\jobs\ga_queue.cpp" "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\main.cpp" "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\math\ga_mat3f.cpp" "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\math\ga_mat4f.cpp" "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\math\ga_quatf.cpp" "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\math\ga_vec2f.cpp" "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\math\ga_vec3f.cpp" "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\math\ga_vec4f.cpp"
+         ga_lua_component.cpp
+     1>c:\users\matt\rpi\ga2017-homework4-master\src\engine\entity\ga_lua_component.h(14): fatal error C1083: Cannot open include file: 'lua.hpp': No such file or directory
+         ga_cube_component.cpp
+         ga_textbox.cpp
+         network_module.cpp
+         ga_component.cpp
+         ga_entity.cpp
+         ga_camera.cpp
+         ga_input.cpp
+         ga_output.cpp
+         ga_sim.cpp
+         ga_material.cpp
+         ga_program.cpp
+         ga_texture.cpp
+         ga_button.cpp
+         ga_checkbox.cpp
+         ga_font.cpp
+         ga_label.cpp
+         ga_widget.cpp
+         ga_condvar.cpp
+         ga_fiber.cpp
+         Generating Code...
+         Compiling...
+         ga_intpool.cpp
+         ga_job.cpp
+         ga_queue.cpp
+         main.cpp
+     1>c:\users\matt\rpi\ga2017-homework4-master\src\engine\entity/ga_lua_component.h(14): fatal error C1083: Cannot open include file: 'lua.hpp': No such file or directory
+         ga_mat3f.cpp
+         ga_mat4f.cpp
+         ga_quatf.cpp
+         ga_vec2f.cpp
+         ga_vec3f.cpp
+         ga_vec4f.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\ga.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:12.76

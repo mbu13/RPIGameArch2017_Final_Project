@@ -1,0 +1,97 @@
+/*
+** RPI Game Architecture Engine
+**
+** Portions adapted from:
+** Viper Engine - Copyright (C) 2016 Velan Studios - All Rights Reserved
+**
+** This file is distributed under the MIT License. See LICENSE.txt.
+*/
+
+#include "ga_checkbox.h"
+#include "ga_label.h"
+#include "ga_font.h"
+
+#include "framework/ga_frame_params.h"
+
+ga_checkbox::ga_checkbox(bool state, const char* text, float x, float y, ga_frame_params* params)
+{
+	// TODO: Homework 4
+
+	// Draw temp label to get properties
+	ga_label *temp = new ga_label(text, x - 1000, y - 1000, params);
+	float width = temp->_height;
+	float height = temp->_height;
+	delete temp;
+
+	_x = x;
+	_y = y;
+	_txt_width = width;
+	_txt_height = height;
+
+	// Detect mouse hover to highlight blue
+	bool mouse_in_region =
+		params->_mouse_x >= _x &&
+		params->_mouse_y >= _y - _txt_height &&
+		params->_mouse_x <= _x + _txt_width &&
+		params->_mouse_y <= _y;
+
+	ga_vec3f color = { 255, 255, 255 };
+	if (mouse_in_region)
+	{
+		color = { 0, 0, 255 };
+	}
+
+	ga_dynamic_drawcall drawcall;
+
+	drawcall._positions.push_back({ x, y, 0.0f });
+	drawcall._positions.push_back({ x + width, y, 0.0f });
+	drawcall._positions.push_back({ x + width, y - height, 0.0f });
+	drawcall._positions.push_back({ x, y - height, 0.0f });
+
+	drawcall._indices.push_back(0);
+	drawcall._indices.push_back(1);
+	drawcall._indices.push_back(1);
+	drawcall._indices.push_back(2);
+	drawcall._indices.push_back(2);
+	drawcall._indices.push_back(3);
+	drawcall._indices.push_back(3);
+	drawcall._indices.push_back(0);
+
+	if (state)
+	{
+		drawcall._indices.push_back(0);
+		drawcall._indices.push_back(2);
+		drawcall._indices.push_back(1);
+		drawcall._indices.push_back(3);
+	}
+
+	drawcall._color = color;
+	drawcall._draw_mode = GL_LINES;
+	drawcall._transform.make_identity();
+	drawcall._material = nullptr;
+
+	while (params->_gui_drawcall_lock.test_and_set(std::memory_order_acquire)) {}
+	params->_gui_drawcalls.push_back(drawcall);
+	params->_gui_drawcall_lock.clear(std::memory_order_release);
+
+	// Draw text label next to checkbox
+	ga_label(text, x + width + 2, y, params);
+}
+
+ga_checkbox::~ga_checkbox()
+{
+	// TODO: Homework 4
+}
+
+bool ga_checkbox::get_clicked(const ga_frame_params* params) const
+{
+	// TODO: Homework 4
+	bool click_in_region =
+		params->_mouse_click_mask != 0 &&
+		params->_mouse_x >= _x &&
+		params->_mouse_y >= _y - _txt_height &&
+		params->_mouse_x <= _x + _txt_width &&
+		params->_mouse_y <= _y;
+
+	return click_in_region;
+}

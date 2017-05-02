@@ -1,0 +1,69 @@
+﻿Build started 5/1/2017 3:29:44 AM.
+     1>Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\ga.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Matt/RPI/ga2017-homework4-master/src/engine/../3rdparty/ttf-bitstream-vera-1.10/VeraMono.ttf C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\SDL2-2.0.5\include" /I"C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\..\3rdparty\SDL2-2.0.5\include" /I"C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\..\3rdparty\stb" /I"C:\Users\Matt\RPI\ga2017-homework4-master\src\3rdparty\glew-2.0.0\include" /I"C:\Users\Matt\RPI\ga2017-homework4-master\src\engine" /I"C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\..\3rdparty\lua-5.3.3\src" /Zi /nologo /W1 /WX- /Od /Ob0 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ga.dir\Debug\\" /Fd"ga.dir\Debug\vc140.pdb" /Gd /TP /errorReport:prompt   ..\..\src\engine\entity\ga_input_component.cpp ..\..\src\engine\network\ga_network_module.cpp "C:\Users\Matt\RPI\ga2017-homework4-master\src\engine\main.cpp"
+         ga_input_component.cpp
+         ga_network_module.cpp
+         main.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\Debug\ga.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:/Users/Matt/RPI/ga2017-homework4-master/src/engine/../3rdparty/glew-2.0.0/lib/Release/x64" /LIBPATH:"C:/Users/Matt/RPI/ga2017-homework4-master/src/engine/../3rdparty/glew-2.0.0/lib/Release/x64/Debug" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "SDL2-2.0.5\Debug\SDL2.lib" glew32s.lib opengl32.lib Debug\lua53.lib winmm.lib imm32.lib version.lib dinput8.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/Debug/ga.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/Debug/ga.lib" /MACHINE:X64  /machine:x64 /ignore:4098 /ignore:4099 ga.dir\Debug\ga_input_component.obj
+         ga.dir\Debug\ga_lua_component.obj
+         ga.dir\Debug\ga_cube_component.obj
+         ga.dir\Debug\ga_textbox.obj
+         ga.dir\Debug\ga_network_module.obj
+         ga.dir\Debug\ga_component.obj
+         ga.dir\Debug\ga_entity.obj
+         ga.dir\Debug\ga_camera.obj
+         ga.dir\Debug\ga_input.obj
+         ga.dir\Debug\ga_output.obj
+         ga.dir\Debug\ga_sim.obj
+         ga.dir\Debug\ga_material.obj
+         ga.dir\Debug\ga_program.obj
+         ga.dir\Debug\ga_texture.obj
+         ga.dir\Debug\ga_button.obj
+         ga.dir\Debug\ga_checkbox.obj
+         ga.dir\Debug\ga_font.obj
+         ga.dir\Debug\ga_label.obj
+         ga.dir\Debug\ga_widget.obj
+         ga.dir\Debug\ga_condvar.obj
+         ga.dir\Debug\ga_fiber.obj
+         ga.dir\Debug\ga_intpool.obj
+         ga.dir\Debug\ga_job.obj
+         ga.dir\Debug\ga_queue.obj
+         ga.dir\Debug\main.obj
+         ga.dir\Debug\ga_mat3f.obj
+         ga.dir\Debug\ga_mat4f.obj
+         ga.dir\Debug\ga_quatf.obj
+         ga.dir\Debug\ga_vec2f.obj
+         ga.dir\Debug\ga_vec3f.obj
+         ga.dir\Debug\ga_vec4f.obj
+            Creating library C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/Debug/ga.lib and object C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/Debug/ga.exp
+         ga.vcxproj -> C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\Debug\ga.exe
+       PostBuildEvent:
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/Matt/RPI/ga2017-homework4-master/src/engine/../../data C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/Debug/data
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+     1>Done Building Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\ga.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.20

@@ -1,0 +1,85 @@
+﻿Build started 4/29/2017 6:11:06 PM.
+     1>Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\lua53.vcxproj" on node 3 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/Matt/RPI/homework-7-mbu13-master/src/engine/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\Matt\RPI\homework-7-mbu13-master\build\ga7-win64\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\Matt\RPI\homework-7-mbu13-master\build\ga7-win64\SDL2-2.0.5\include" /I"C:\Users\Matt\RPI\homework-7-mbu13-master\src\engine\..\3rdparty\SDL2-2.0.5\include" /I"C:\Users\Matt\RPI\homework-7-mbu13-master\src\engine\..\3rdparty\stb" /I"C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\glew-2.0.0\include" /I"C:\Users\Matt\RPI\homework-7-mbu13-master\src\engine\..\3rdparty\lua-5.3.3\src" /I"C:\Users\Matt\RPI\homework-7-mbu13-master\src\engine" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"lua53.dir\Release\\" /Fd"lua53.dir\Release\lua53.pdb" /Gd /TC /errorReport:prompt "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\lapi.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\lauxlib.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\lbaselib.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\lbitlib.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\lcode.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\lcorolib.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\lctype.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\ldblib.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\ldebug.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\ldo.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\ldump.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\lfunc.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\lgc.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\linit.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\liolib.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\llex.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\lmathlib.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\lmem.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\loadlib.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\lobject.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\lopcodes.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\loslib.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\lparser.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\lstate.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\lstring.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\lstrlib.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\ltable.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\ltablib.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\ltm.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\lua.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\lundump.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\lutf8lib.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\lvm.c" "C:\Users\Matt\RPI\homework-7-mbu13-master\src\3rdparty\lua-5.3.3\src\lzio.c"
+         lapi.c
+         lauxlib.c
+         lbaselib.c
+         lbitlib.c
+         lcode.c
+         lcorolib.c
+         lctype.c
+         ldblib.c
+         ldebug.c
+         ldo.c
+         ldump.c
+         lfunc.c
+         lgc.c
+         linit.c
+         liolib.c
+         llex.c
+         lmathlib.c
+         lmem.c
+         loadlib.c
+         lobject.c
+         Generating Code...
+         Compiling...
+         lopcodes.c
+         loslib.c
+         lparser.c
+         lstate.c
+         lstring.c
+         lstrlib.c
+         ltable.c
+         ltablib.c
+         ltm.c
+         lua.c
+         lundump.c
+         lutf8lib.c
+         lvm.c
+         lzio.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\Matt\RPI\homework-7-mbu13-master\build\ga7-win64\Release\lua53.lib" /NOLOGO /MACHINE:X64  /machine:x64 lua53.dir\Release\lapi.obj
+         lua53.dir\Release\lauxlib.obj
+         lua53.dir\Release\lbaselib.obj
+         lua53.dir\Release\lbitlib.obj
+         lua53.dir\Release\lcode.obj
+         lua53.dir\Release\lcorolib.obj
+         lua53.dir\Release\lctype.obj
+         lua53.dir\Release\ldblib.obj
+         lua53.dir\Release\ldebug.obj
+         lua53.dir\Release\ldo.obj
+         lua53.dir\Release\ldump.obj
+         lua53.dir\Release\lfunc.obj
+         lua53.dir\Release\lgc.obj
+         lua53.dir\Release\linit.obj
+         lua53.dir\Release\liolib.obj
+         lua53.dir\Release\llex.obj
+         lua53.dir\Release\lmathlib.obj
+         lua53.dir\Release\lmem.obj
+         lua53.dir\Release\loadlib.obj
+         lua53.dir\Release\lobject.obj
+         lua53.dir\Release\lopcodes.obj
+         lua53.dir\Release\loslib.obj
+         lua53.dir\Release\lparser.obj
+         lua53.dir\Release\lstate.obj
+         lua53.dir\Release\lstring.obj
+         lua53.dir\Release\lstrlib.obj
+         lua53.dir\Release\ltable.obj
+         lua53.dir\Release\ltablib.obj
+         lua53.dir\Release\ltm.obj
+         lua53.dir\Release\lua.obj
+         lua53.dir\Release\lundump.obj
+         lua53.dir\Release\lutf8lib.obj
+         lua53.dir\Release\lvm.obj
+         lua53.dir\Release\lzio.obj
+         lua53.vcxproj -> C:\Users\Matt\RPI\homework-7-mbu13-master\build\ga7-win64\Release\lua53.lib
+     1>Done Building Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\lua53.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.25

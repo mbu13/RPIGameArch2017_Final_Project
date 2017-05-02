@@ -1,0 +1,664 @@
+The system is: Windows - 10.0.14393 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/26/2017 8:39:59 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (156,61)" does not exist in the project, and will be ignored.
+Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\3.6.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\3.6.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\3.6.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.02
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/3.6.2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/26/2017 8:40:04 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (156,61)" does not exist in the project, and will be ignored.
+Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\3.6.2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\3.6.2\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\3.6.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.63
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/3.6.2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_328c8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/26/2017 8:40:05 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (156,61)" does not exist in the project, and will be ignored.
+Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\cmTC_328c8.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_328c8.dir\Debug\".
+  Creating directory "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_328c8.dir\Debug\cmTC_328c8.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_328c8.dir\Debug\cmTC_328c8.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_328c8.dir\Debug\\" /Fd"cmTC_328c8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_328c8.dir\Debug\\" /Fd"cmTC_328c8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\cmTC_328c8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp/Debug/cmTC_328c8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp/Debug/cmTC_328c8.lib" /MACHINE:X64  /machine:x64 cmTC_328c8.dir\Debug\testCCompiler.obj
+  cmTC_328c8.vcxproj -> C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\cmTC_328c8.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_328c8.dir\Debug\cmTC_328c8.tlog\unsuccessfulbuild".
+  Touching "cmTC_328c8.dir\Debug\cmTC_328c8.tlog\cmTC_328c8.lastbuildstate".
+Done Building Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\cmTC_328c8.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.13
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_35a23.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/26/2017 8:40:06 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (156,61)" does not exist in the project, and will be ignored.
+Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\cmTC_35a23.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_35a23.dir\Debug\".
+  Creating directory "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_35a23.dir\Debug\cmTC_35a23.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_35a23.dir\Debug\cmTC_35a23.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_35a23.dir\Debug\\" /Fd"cmTC_35a23.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_35a23.dir\Debug\\" /Fd"cmTC_35a23.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\cmTC_35a23.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp/Debug/cmTC_35a23.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp/Debug/cmTC_35a23.lib" /MACHINE:X64  /machine:x64 cmTC_35a23.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_35a23.vcxproj -> C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\cmTC_35a23.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_35a23.dir\Debug\cmTC_35a23.tlog\unsuccessfulbuild".
+  Touching "cmTC_35a23.dir\Debug\cmTC_35a23.tlog\cmTC_35a23.lastbuildstate".
+Done Building Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\cmTC_35a23.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.70
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_1c095.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/26/2017 8:40:08 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (156,61)" does not exist in the project, and will be ignored.
+Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\cmTC_1c095.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_1c095.dir\Debug\".
+  Creating directory "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_1c095.dir\Debug\cmTC_1c095.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_1c095.dir\Debug\cmTC_1c095.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1c095.dir\Debug\\" /Fd"cmTC_1c095.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1c095.dir\Debug\\" /Fd"cmTC_1c095.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\cmTC_1c095.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp/Debug/cmTC_1c095.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp/Debug/cmTC_1c095.lib" /MACHINE:X64  /machine:x64 cmTC_1c095.dir\Debug\testCXXCompiler.obj
+  cmTC_1c095.vcxproj -> C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\cmTC_1c095.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_1c095.dir\Debug\cmTC_1c095.tlog\unsuccessfulbuild".
+  Touching "cmTC_1c095.dir\Debug\cmTC_1c095.tlog\cmTC_1c095.lastbuildstate".
+Done Building Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\cmTC_1c095.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.59
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d8e03.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/26/2017 8:40:08 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (156,61)" does not exist in the project, and will be ignored.
+Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\cmTC_d8e03.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_d8e03.dir\Debug\".
+  Creating directory "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_d8e03.dir\Debug\cmTC_d8e03.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_d8e03.dir\Debug\cmTC_d8e03.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d8e03.dir\Debug\\" /Fd"cmTC_d8e03.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d8e03.dir\Debug\\" /Fd"cmTC_d8e03.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\cmTC_d8e03.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp/Debug/cmTC_d8e03.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp/Debug/cmTC_d8e03.lib" /MACHINE:X64  /machine:x64 cmTC_d8e03.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_d8e03.vcxproj -> C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\cmTC_d8e03.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_d8e03.dir\Debug\cmTC_d8e03.tlog\unsuccessfulbuild".
+  Touching "cmTC_d8e03.dir\Debug\cmTC_d8e03.tlog\cmTC_d8e03.lastbuildstate".
+Done Building Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\cmTC_d8e03.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.76
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_65b97.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/26/2017 8:40:10 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (156,61)" does not exist in the project, and will be ignored.
+Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\cmTC_65b97.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_65b97.dir\Debug\".
+  Creating directory "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_65b97.dir\Debug\cmTC_65b97.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_65b97.dir\Debug\cmTC_65b97.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_65b97.dir\Debug\\" /Fd"cmTC_65b97.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_65b97.dir\Debug\\" /Fd"cmTC_65b97.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\feature_tests.cxx"
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\cmTC_65b97.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp/Debug/cmTC_65b97.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp/Debug/cmTC_65b97.lib" /MACHINE:X64  /machine:x64 cmTC_65b97.dir\Debug\feature_tests.obj
+  cmTC_65b97.vcxproj -> C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\cmTC_65b97.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_65b97.dir\Debug\cmTC_65b97.tlog\unsuccessfulbuild".
+  Touching "cmTC_65b97.dir\Debug\cmTC_65b97.tlog\cmTC_65b97.lastbuildstate".
+Done Building Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\cmTC_65b97.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.63
+
+
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+Performing C SOURCE FILE Test HAVE_WIN32_CC succeeded with the following output:
+Change Dir: C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_55824.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/26/2017 8:40:11 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (156,61)" does not exist in the project, and will be ignored.
+Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\cmTC_55824.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_55824.dir\Debug\".
+  Creating directory "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_55824.dir\Debug\cmTC_55824.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_55824.dir\Debug\cmTC_55824.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_WIN32_CC /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_55824.dir\Debug\\" /Fd"cmTC_55824.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\src.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_WIN32_CC /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_55824.dir\Debug\\" /Fd"cmTC_55824.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\cmTC_55824.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp/Debug/cmTC_55824.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp/Debug/cmTC_55824.lib" /MACHINE:X64  /machine:x64 cmTC_55824.dir\Debug\src.obj
+  cmTC_55824.vcxproj -> C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\cmTC_55824.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_55824.dir\Debug\cmTC_55824.tlog\unsuccessfulbuild".
+  Touching "cmTC_55824.dir\Debug\cmTC_55824.tlog\cmTC_55824.lastbuildstate".
+Done Building Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\cmTC_55824.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.48
+
+Source file was:
+
+    #include <windows.h>
+    int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_XINPUT_H succeeded with the following output:
+Change Dir: C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_74d72.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/26/2017 8:40:16 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (156,61)" does not exist in the project, and will be ignored.
+Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\cmTC_74d72.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_74d72.dir\Debug\".
+  Creating directory "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_74d72.dir\Debug\cmTC_74d72.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_74d72.dir\Debug\cmTC_74d72.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_XINPUT_H /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_74d72.dir\Debug\\" /Fd"cmTC_74d72.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\src.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_XINPUT_H /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_74d72.dir\Debug\\" /Fd"cmTC_74d72.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\cmTC_74d72.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp/Debug/cmTC_74d72.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp/Debug/cmTC_74d72.lib" /MACHINE:X64  /machine:x64 cmTC_74d72.dir\Debug\src.obj
+  cmTC_74d72.vcxproj -> C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\cmTC_74d72.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_74d72.dir\Debug\cmTC_74d72.tlog\unsuccessfulbuild".
+  Touching "cmTC_74d72.dir\Debug\cmTC_74d72.tlog\cmTC_74d72.lastbuildstate".
+Done Building Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\cmTC_74d72.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+
+Source file was:
+
+        #include <windows.h>
+        #include <xinput.h>
+        int main(int argc, char **argv) { }
+Determining if the include file d3d9.h exists passed with the following output:
+Change Dir: C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3d7b2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/26/2017 8:40:17 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (156,61)" does not exist in the project, and will be ignored.
+Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\cmTC_3d7b2.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_3d7b2.dir\Debug\".
+  Creating directory "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_3d7b2.dir\Debug\cmTC_3d7b2.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_3d7b2.dir\Debug\cmTC_3d7b2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3d7b2.dir\Debug\\" /Fd"cmTC_3d7b2.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3d7b2.dir\Debug\\" /Fd"cmTC_3d7b2.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\cmTC_3d7b2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp/Debug/cmTC_3d7b2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp/Debug/cmTC_3d7b2.lib" /MACHINE:X64  /machine:x64 cmTC_3d7b2.dir\Debug\CheckIncludeFile.obj
+  cmTC_3d7b2.vcxproj -> C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\cmTC_3d7b2.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_3d7b2.dir\Debug\cmTC_3d7b2.tlog\unsuccessfulbuild".
+  Touching "cmTC_3d7b2.dir\Debug\cmTC_3d7b2.tlog\cmTC_3d7b2.lastbuildstate".
+Done Building Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\cmTC_3d7b2.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.03
+
+
+Determining if the include file d3d11_1.h exists passed with the following output:
+Change Dir: C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_881a3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/26/2017 8:40:18 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (156,61)" does not exist in the project, and will be ignored.
+Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\cmTC_881a3.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_881a3.dir\Debug\".
+  Creating directory "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_881a3.dir\Debug\cmTC_881a3.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_881a3.dir\Debug\cmTC_881a3.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_881a3.dir\Debug\\" /Fd"cmTC_881a3.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_881a3.dir\Debug\\" /Fd"cmTC_881a3.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\cmTC_881a3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp/Debug/cmTC_881a3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp/Debug/cmTC_881a3.lib" /MACHINE:X64  /machine:x64 cmTC_881a3.dir\Debug\CheckIncludeFile.obj
+  cmTC_881a3.vcxproj -> C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\cmTC_881a3.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_881a3.dir\Debug\cmTC_881a3.tlog\unsuccessfulbuild".
+  Touching "cmTC_881a3.dir\Debug\cmTC_881a3.tlog\cmTC_881a3.lastbuildstate".
+Done Building Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\cmTC_881a3.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.30
+
+
+Determining if the include file ddraw.h exists passed with the following output:
+Change Dir: C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_15614.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/26/2017 8:40:19 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (156,61)" does not exist in the project, and will be ignored.
+Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\cmTC_15614.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_15614.dir\Debug\".
+  Creating directory "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_15614.dir\Debug\cmTC_15614.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_15614.dir\Debug\cmTC_15614.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15614.dir\Debug\\" /Fd"cmTC_15614.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15614.dir\Debug\\" /Fd"cmTC_15614.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\cmTC_15614.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp/Debug/cmTC_15614.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp/Debug/cmTC_15614.lib" /MACHINE:X64  /machine:x64 cmTC_15614.dir\Debug\CheckIncludeFile.obj
+  cmTC_15614.vcxproj -> C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\cmTC_15614.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_15614.dir\Debug\cmTC_15614.tlog\unsuccessfulbuild".
+  Touching "cmTC_15614.dir\Debug\cmTC_15614.tlog\cmTC_15614.lastbuildstate".
+Done Building Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\cmTC_15614.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.86
+
+
+Determining if the include file dsound.h exists passed with the following output:
+Change Dir: C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5c937.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/26/2017 8:40:20 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (156,61)" does not exist in the project, and will be ignored.
+Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\cmTC_5c937.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_5c937.dir\Debug\".
+  Creating directory "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_5c937.dir\Debug\cmTC_5c937.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_5c937.dir\Debug\cmTC_5c937.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5c937.dir\Debug\\" /Fd"cmTC_5c937.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5c937.dir\Debug\\" /Fd"cmTC_5c937.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\cmTC_5c937.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp/Debug/cmTC_5c937.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp/Debug/cmTC_5c937.lib" /MACHINE:X64  /machine:x64 cmTC_5c937.dir\Debug\CheckIncludeFile.obj
+  cmTC_5c937.vcxproj -> C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\cmTC_5c937.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_5c937.dir\Debug\cmTC_5c937.tlog\unsuccessfulbuild".
+  Touching "cmTC_5c937.dir\Debug\cmTC_5c937.tlog\cmTC_5c937.lastbuildstate".
+Done Building Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\cmTC_5c937.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.80
+
+
+Determining if the include file dinput.h exists passed with the following output:
+Change Dir: C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_62682.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/26/2017 8:40:21 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (156,61)" does not exist in the project, and will be ignored.
+Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\cmTC_62682.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_62682.dir\Debug\".
+  Creating directory "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_62682.dir\Debug\cmTC_62682.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_62682.dir\Debug\cmTC_62682.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_62682.dir\Debug\\" /Fd"cmTC_62682.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_62682.dir\Debug\\" /Fd"cmTC_62682.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\cmTC_62682.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp/Debug/cmTC_62682.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp/Debug/cmTC_62682.lib" /MACHINE:X64  /machine:x64 cmTC_62682.dir\Debug\CheckIncludeFile.obj
+  cmTC_62682.vcxproj -> C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\cmTC_62682.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_62682.dir\Debug\cmTC_62682.tlog\unsuccessfulbuild".
+  Touching "cmTC_62682.dir\Debug\cmTC_62682.tlog\cmTC_62682.lastbuildstate".
+Done Building Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\cmTC_62682.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+
+Determining if the include file dxgi.h exists passed with the following output:
+Change Dir: C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_2caba.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/26/2017 8:40:23 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (156,61)" does not exist in the project, and will be ignored.
+Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\cmTC_2caba.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_2caba.dir\Debug\".
+  Creating directory "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_2caba.dir\Debug\cmTC_2caba.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_2caba.dir\Debug\cmTC_2caba.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2caba.dir\Debug\\" /Fd"cmTC_2caba.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2caba.dir\Debug\\" /Fd"cmTC_2caba.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\cmTC_2caba.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp/Debug/cmTC_2caba.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/CMakeTmp/Debug/cmTC_2caba.lib" /MACHINE:X64  /machine:x64 cmTC_2caba.dir\Debug\CheckIncludeFile.obj
+  cmTC_2caba.vcxproj -> C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\Debug\cmTC_2caba.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_2caba.dir\Debug\cmTC_2caba.tlog\unsuccessfulbuild".
+  Touching "cmTC_2caba.dir\Debug\cmTC_2caba.tlog\cmTC_2caba.lastbuildstate".
+Done Building Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\CMakeTmp\cmTC_2caba.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+

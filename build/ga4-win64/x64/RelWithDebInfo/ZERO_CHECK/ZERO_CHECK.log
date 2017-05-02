@@ -1,0 +1,11 @@
+﻿Build started 4/29/2017 6:07:06 PM.
+     1>Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/Matt/RPI/ga2017-homework4-master/build/ga4-win64/SDL2-2.0.5/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\ZERO_CHECK.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.10

@@ -1,0 +1,10 @@
+﻿Build started 4/29/2017 5:44:22 PM.
+     1>Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\ALL_BUILD.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/Matt/RPI/ga2017-homework4-master/src/engine/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\CMakeFiles\generate.stamp is up-to-date.
+     1>Done Building Project "C:\Users\Matt\RPI\ga2017-homework4-master\build\ga4-win64\ALL_BUILD.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.07
