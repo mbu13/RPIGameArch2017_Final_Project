@@ -32,7 +32,7 @@ The primary features of this project include:
 
 ### Lag Simulation
 
-6) On the clinet window, click the "SIM LAG" button on the top left and increase/decrease the minimum ping constant. You should see that when moving the cube on the server window, the client's window will update the server's cube with a delay.
+6) On the client window, click the "SIM LAG" button on the top left and increase/decrease the minimum ping constant. You should see that when moving the cube on the server window, the client's window will update the server's cube with a delay.
 
 For more details on this project, please see this presentation:
 
