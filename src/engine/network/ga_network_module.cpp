@@ -147,7 +147,7 @@ void ga_network_module::start_listener()
 		memset(reply, '\0', BUFFER);
 		memset(_msg, '\0', BUFFER);
 
-		//try to receive some data, this is a blocking call
+		// Wait for client to send data
 		if ((recv_len = recvfrom(sd, buffer, BUFFER, 0, (struct sockaddr *) &si_other, &slen)) == SOCKET_ERROR)
 		{
 			std::cout << "ERROR: recv_len() failed\n";
